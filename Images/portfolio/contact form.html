@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Send_message</title>
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="contact form.css">
+  </head>
+  <body>
+    <header>
+      <section class="web-navigation">
+        <div class="website-navigation"><a href="./contact form.html.html">Contact Me</a></div>
+      </section>
+    </header>
+    <section class="login-interface">
+      <h1>Send_message</h1>
+      <div class="screen">
+        <form action="submit">
+          <section id="contact-section">
+            <div class="contact form">
+                <form onsubmit="return false">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="user_name" required>
+                    </div>
+                    <div>
+                        <label for="email address">Email</label>
+                        <input type="email" id="email adress" placeholder="user_email" required>
+                    </div>
+                    <div>
+                        <label for="msg">Message</label>
+                        <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
+            <button onclick="sendContact();">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+<form action="#" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <input type="submit" value="Send">
+</form>
