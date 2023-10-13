@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <header class="header">
+        <!-- For website navigation -->
+        <section class="web-navigation">
+            <div class="website-navigation"><a href="./index.html">About Me</a></div>
+          <div class="website-navigation"><a href="./register.html">Sign Up</a></div>
+          <div class="website-navigation"><a href="./login_page.html">Login</a></div>
+        </section>
+      </header>
+    <div id="contact-form">
+        <h2>Contact Form</h2>
+        <div class="contact_form" id="contact_form_id">
+          <form id="contact" action="" method="post">
+            <div>
+              <label for="name">Name</label><br>
+                <input id="name" class="name" type="text" name="name">
+              </label>
+            </div>
+            <br>
+            <div>
+              <label for="email">Email</label><br>
+              <input type="text" name="email" id="email" class="email">
+            </div>
+            <br>
+            <div>
+              <label for="message">Message</label><br>
+              <textarea type="text" name="message" id="message" class="mesage" cols="30" rows="10" 
+              placeholder="Please input your message here."></textarea>
+            </div>
+            <br>
+            <div>
+              <label for="priority">Message Priority</label><br>
+              <select>
+                <option value="urgent">Urgent</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+                <option value="not important">Not Important</option>
+              </select>
+            </div>
+            <br>
+            <button class="submit" id="submit_id">
+              Submit
+            </button>
+            <div></div>
+            <div></div>
+          </form>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="pers3.css">
+</head>
+<body>
+  <header>
+    <section class="web-navigation">
+      <div class="website-navigation"><a href="./index.html">About Me</a></div>
+      <div class="website-navigation"><a href="./login_page.html">Login</a></div>
+      <div class="website-navigation"><a href="./contact.html">Contact Me</a></div>
+      <div class="website-navigation"><a href="./calculator.html">Calculator</a></div>
+    </section>
+    </header>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend> Contact Details </legend>
+        <!-- For first name -->
+        <div>
+            <label for="first_name"> First Name </label>
+            <br>
+            <input id="first_name" class="first_name" type="text" name="first_name" required/>
+        </div>
+        <br>
+        <!-- For last name -->
+        <div>
+            <label for="last_name"> Last Name </label>
+            <br>
+            <input id="last_name" class="last_name" type="text" name="last_name" required>
+        </div>
+      </fieldset>
+        <br>
+        <!-- For email -->
+        <div>
+            <label for="email"> Email Address </label>
+            <br>
+            <input id="email" class="email" type="email" name="email" required>
+        </div>
+        <br>
+        <!-- For Phone Number -->
+        <div>
+            <label for="phone_number"> Phone Number </label>
+            <br>
+            <input id="phone_number" class="phone_number" type="tel" name="phone_number" required>
+        </div>
+        <br>
+        <!-- For gender-->
+        <div>
+            <label for="gender"> Gender </label>
+            <br>
+            <select required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="neutral">Neutral</option>
+                <option value="others">Others</option>
+            </select>
+            <br>
+        </div>
+
+      <!-- For country -->
+      <div>
+        <label for="country"> Country </label>
+        <br>
+        <input id="country" class="country" type="text" name="country">
+      </div>
+      <br>
+  <!-- State/Province -->
+      <div>
+        <label for="state"> State/Province </label>
+        <br>
+        <input id="state" class="state" type="text" name="state">
+      </div>
+      <br>
+    <!-- For Username-->
+      <div>
+        <label for="username"> Username </label>
+        <br>
+        <input id="username" class="username" type="text" name="username">
+      </div>
+      <br>
+      <!-- For Password -->
+      <div>
+        <label for="password"> Password </label>
+        <br>
+        <input type="password" id="password" class="password" name="password">
+      </div>
+      <br>
+
+        <!-- For Password -->
+      <div>
+        <label for="confirm_password"> Confirm Password </label>
+        <br>
+        <input type="password" id="confirm_password" class="confirm_password" name="confirm_password">
+      </div>
+
+        <button>Submit</button>
+    </form>
+  <footer>
+    
+  </footer>
+</body>
+</html>
