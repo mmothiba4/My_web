@@ -52,6 +52,72 @@ thead {
   color: white;
 }
 
+.skills{
+  width: 100px;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+
+.skill-name {
+  font-size: ;
+  font-weight: ;
+  color: ;
+  text-transform: ;
+  margin: ;
+}
+
+.skill-bar {
+  border-radius: 3px ;
+  height: 14px;
+  background-color: black;
+}
+
+.skill-per {
+  border-radius: 3px ;
+  height: 14px;
+  background-color: black;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: white;
+  border-radius: 4px ;
+  font-size: 12;
+  top: -35px ;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after {
+  content: "";
+  position: absolute;
+  background: white;
+  border-radius: 4px ;
+  top: -20px ;
+  right: 0;
+  transform: translateX(50%) rotateX(45deg);
+  width: 10px;
+  height: 10px;
+
+}
+
+@keyframes fillBars {
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+
+
+
 
 
 
