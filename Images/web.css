@@ -3,6 +3,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-color: teal;
+  display: flex;
 }
 
 header img {
@@ -60,11 +61,11 @@ thead {
 
 
 .skill-name {
-  font-size: ;
-  font-weight: ;
-  color: ;
-  text-transform: ;
-  margin: ;
+  font-size: 12px ;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase ;
+  margin: 20px 0;
 }
 
 .skill-bar {
@@ -74,9 +75,9 @@ thead {
 }
 
 .skill-per {
-  border-radius: 3px ;
   height: 14px;
-  background-color: black;
+  border-radius: 3px ;
+  background-color: green;
   position: relative;
   animation: fillBars 2.5s 1;
 }
@@ -87,7 +88,7 @@ thead {
   padding: 4px 6px;
   background: white;
   border-radius: 4px ;
-  font-size: 12;
+  font-size: 8;
   top: -35px ;
   right: 0;
   transform: translateX(50%);
@@ -96,13 +97,14 @@ thead {
 .skill-per::after {
   content: "";
   position: absolute;
-  background: white;
-  border-radius: 4px ;
-  top: -20px ;
-  right: 0;
-  transform: translateX(50%) rotateX(45deg);
   width: 10px;
   height: 10px;
+  background: white;
+  top: -20px ;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 4px;
+  
 
 }
 
