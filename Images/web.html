@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Google Fonts Pre Connect -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<head></head>
   <!-- Meta Tags -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts Pre Connect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- CSS Files Links -->
   <link rel="stylesheet" href="./web.css">
@@ -35,10 +36,12 @@
   </header>
 
   <main>
+    <!--Brief description of who I am-->
       <div class="about" id="about_me_id">
         <h2>About Me</h2>
         <p> I am a proud young female livestock farmer specializing in Bonsmara and Nguni cattle in the Immerpan area of Limpopo Province, South Africa. I also provide mentorship to farmers with the aim to minimize the stigma that farming is for the male, illeterate and elderly people. As part of my career and personal growth I am now shifting my interests towards software engineering.</p>
         <p>I am a studying introduction to software engineering through ALX Africa</p>
+      <!--About me with relation to education-->
       <div class="about_me" id="education_id">
         <h3>Education</h3>
         <table class="table-style">
@@ -74,9 +77,8 @@
         </table>
       </div>
       </section>
-
+<!--section about skills-->
 <section id="Skills-section">
-
   <div class="skills">
     <div class="skill">
       <div class="skill-name">html</div>
@@ -112,13 +114,37 @@
       </div>
     </div>
   </div>
-
 </section>
+
+<section id="contact-section">
+  <div class="container">
+    <h1>Contact <form action=""></form></h1>
+    <form action="" name="contact_form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required> <br>
+      <label for="email address">Email</label>
+      <input type="email" id="email" email="email" required placeholder="you@domain.com"> <br>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+      <button onclick="sendContact();">Submit</button>
+    </form>
+  </div>
+</section>
+<script src="./contact form.js"></script>
 
 
   </main>
-
+<!--footer section-->
   <footer>
+    <!--social media icons-->
+    <div class="row social">
+      <div class="social-icons">
+        <a href="https:www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+        <a href="https:www.twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+        <a href="https:www.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    
     
   </footer>
 

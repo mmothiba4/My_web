@@ -3,7 +3,6 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-color: teal;
-  display: flex;
 }
 
 header img {
@@ -17,7 +16,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   
@@ -36,6 +35,11 @@ header {
 
  main {
   color: white;
+ }
+
+ sectin div {
+  height: auto;
+  width: auto;
  }
 
  table, th, td {
@@ -61,21 +65,22 @@ thead {
 
 
 .skill-name {
-  font-size: 12px ;
-  font-weight: 500;
+  font-size: 14px ;
+  font-weight: 700;
   color: white;
   text-transform: uppercase ;
   margin: 20px 0;
 }
 
 .skill-bar {
-  border-radius: 3px ;
-  height: 14px;
+  height: 10px;
   background-color: black;
+  border-radius: 3px ;
+  
 }
 
 .skill-per {
-  height: 14px;
+  height: 10px;
   border-radius: 3px ;
   background-color: green;
   position: relative;
@@ -85,10 +90,10 @@ thead {
 .skill-per::before {
   content: attr(per);
   position: absolute;
-  padding: 4px 6px;
-  background: white;
-  border-radius: 4px ;
-  font-size: 8;
+  padding: 2px 4px;
+  background: black;
+  border-radius: 2px ;
+  font-size: 10px;
   top: -35px ;
   right: 0;
   transform: translateX(50%);
@@ -97,13 +102,13 @@ thead {
 .skill-per::after {
   content: "";
   position: absolute;
-  width: 10px;
-  height: 10px;
-  background: white;
+  width: 8px;
+  height: 8px;
+  background: black;
   top: -20px ;
   right: 0;
   transform: translateX(50%) rotate(45deg);
-  border-radius: 4px;
+  border-radius: 2px;
   
 
 }
@@ -113,10 +118,144 @@ thead {
     width: 0;
   }
   to{
-    width: 100%;
+    width: 70%;
   }
 }
 
+footer {
+  background-color: #04AA6D;
+  text-align: right;
+}
+
+.social {
+  padding: 15px;
+  margin: 5px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.social a {
+  font-size: 30px;
+  color: black;
+  border-style: groove;
+  border-color: #555;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.social a:hover {
+  background-color: #04AA6D;
+  color: white;
+  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out ;
+  transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
+
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+}
+
+h1 {
+  text-align: left;
+}
+
+.container {
+  padding: 12px;
+  margin: 24px;
+  border-radius: 2px;
+}
+
+label {
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input {
+  border: 1px solid green;
+}
+
+input[type=submit] {
+  margin: 0 auto;
+  outline: 0;
+  color: white;
+  border: 0;
+  padding: 12px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+input[type=submit]:focus {
+  color: whitesmoke;
+}
+
+input[type=submit]:hover{
+  background: #2196f3;
+}
+
+
+
+/*.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover {
+  color: darkblue;
+}
+
+.fab {
+  color: #555;
+}
+
+/* Footer
+      ============================= */
+    
+    /*.footer {
+    --nav-item-font-weight: normal;
+    --nav-item-font-size: var(--font-size-small);
+    padding: 5px;
+    }
+    
+    .footer ul {
+    text-align: right;
+    }
+    
+    .footer-address {
+    color: var(--text-color);
+    }
+    
+    .social-link {
+    display: block;
+    }
+    
+    .social-link > svg {
+    fill: var(--text-color);
+    }
+    
+    
 
 
 

@@ -1,4 +1,53 @@
-* {
+h1 {
+  text-align: left;
+}
+
+.container {
+  padding: 12px;
+  margin: 24px;
+  border-radius: 2px;
+}
+
+label {
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input {
+  border: 1px solid green;
+}
+
+input[type=submit] {
+  margin: 0 auto;
+  outline: 0;
+  color: white;
+  border: 0;
+  padding: 12px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+input[type=submit]:focus {
+  color: whitesmoke;
+}
+
+input[type=submit]:hover{
+  background: #2196f3;
+}
+
+
+
+
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +56,7 @@
 
 
 body {
-    background: rgb(2, 27, 24);
+    background: white(2, 27, 24);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -16,10 +65,10 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    gap: 2px 3px;
+    gap: 1px 2px;
     background-color: #1da78e;
     overflow: auto;
-    padding: 10px;
+    padding: 4px;
   }
   
   .web-navigation a{
@@ -27,7 +76,7 @@ body {
       padding: 12px;
       color: white;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 12px;
   }
   
   .web-navigation div {
@@ -47,27 +96,25 @@ body {
     border-radius: 4px;
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
   }
-  section h1 {
+  h1 {
     text-align: center;
-    color: #1da78e;
-    padding: 35px 35px 0 35px;
-    font-weight: 300;
   }
-  .screen {
-    padding: 35px;
-    text-align: center;
+  .container {
+    padding: 12px 24px 24px 24px;
+    margin: 48px 12px;
+    border-radius: 4px;
   }
 
   .input-field {
-    padding: 12px 5px;
+    padding: 8px 3px;
   }
 
   .input-field input {
-    font-size: 16px;
+    font-size: 8px;
     display: block;
     font-family: 'Rubik', sans-serif;
     width: 100%;
-    padding: 10px 1px;
+    padding: 6px 1px;
     border: 0;
     border-bottom: 1px solid #747474;
     outline: none;
@@ -131,10 +178,10 @@ body {
 
 
   form {
-    width: 400px;
+    width: 200px;
     margin: 0 auto;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1;
 }
 
 label {
