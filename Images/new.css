@@ -5,7 +5,7 @@ html, body {
   
   body {font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    background-color: aqua;
+    background-color: teal; 
     }
 a:hover {
     color: skyblue;
@@ -120,7 +120,7 @@ thead {
   background: black;
   border-radius: 2px ;
   font-size: 10px;
-  top: -35px ;
+  top: -20px ;
   right: 0;
   transform: translateX(50%);
 }
@@ -130,7 +130,6 @@ thead {
   position: absolute;
   width: 8px;
   height: 8px;
-  background: black;
   top: -20px ;
   right: 0;
   transform: translateX(50%) rotate(45deg);
@@ -158,9 +157,9 @@ thead {
 
 .column {
   float: left;
-  width: 28%;
+  width: 25%;
   margin-bottom: 16px;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .card {
@@ -197,24 +196,23 @@ footer {
 .social {
   padding: 15px;
   margin: 5px;
-  border-radius: 6px;
+  border-radius: 4px;
   position: relative;
   overflow: hidden;
 }
 
 .social a {
-  font-size: 30px;
+  font-size: 15px;
   color: black;
   border-style: groove;
   border-color: #555;
-  padding: 10px;
-  margin: 10px;
+  padding: 8px;
+  margin: 8px;
   border-radius: 6px;
-  display: inline-block;
 }
 
 .social a:hover {
-  background-color: #04AA6D;
+  background-color: blue;
   color: white;
   -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
   -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
@@ -240,6 +238,11 @@ h1 {
   text-align: left;
 }
 
+/* Contact form */
+h1 {
+  text-align: left;
+}
+
 .container {
   padding: 12px;
   margin: 24px;
@@ -249,8 +252,7 @@ h1 {
 label {
   width: 100px;
   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -259,6 +261,7 @@ label {
 
 input {
   border: 1px solid green;
+  margin: 4px;
 }
 
 input[type=submit] {
@@ -281,4 +284,12 @@ input[type=submit]:focus {
 input[type=submit]:hover{
   background: #2196f3;
 }
+
+textarea {
+  border: 1px solid green;
+  margin: 4px;
+  padding-top: 4px;
+}
+
+
 
