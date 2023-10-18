@@ -1,10 +1,10 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-    var x = document.getElementById("contact me");
-    if (x.className === "contact me") {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "website-navigation") {
       x.className += " responsive";
     } else {
-      x.className = "contact me";
+      x.className = "website-navigation";
     }
   }
 

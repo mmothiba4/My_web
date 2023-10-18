@@ -16,7 +16,7 @@ a:hover {
     color: skyblue;
     text-decoration: none
   }
-  .web-navigation {
+  .top-navigation {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -27,7 +27,7 @@ a:hover {
     padding: 10px;
   }
   
-  .web-navigation a{
+  .top-navigation a{
       float: right;
       padding: 12px;
       color: white;

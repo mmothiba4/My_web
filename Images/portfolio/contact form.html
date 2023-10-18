@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="contact form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -15,19 +17,30 @@
     </header>
     <section id="contact-section">
       <div class="container">
-        <h1>Contact <form action=""></form></h1>
+        <h1>Send_message</h1>
         <form action="" name="contact_form">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required> <br>
           <label for="email address">Email</label>
-          <input type="email" id="email" email="email" required placeholder="you@domain.com"> <br>
+          <input type="email" id="email" email="email" required> <br>
           <label for="message">Message</label>
           <textarea name="message" id="message" cols="30" rows="10" required></textarea>
           <button onclick="sendContact();">Submit</button>
-          </form>
- 
+        </form>
       </div>
     </section>
+
+    <footer>
+      <!--social media icons-->
+      <div class="row social">
+        <div class="social-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+      
+    </footer>
     <script src="./contact form.js"></script>
   </body>
 </html>
